@@ -1,0 +1,32 @@
+body {
+  background: gray;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.item {
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  margin-bottom: 100px;
+  transition: all 5s ease;
+}
+.section1 {
+  background-color: burlywood;
+}
+
+.section2 {
+  background-color: goldenrod;
+}
+
+.section3 {
+  background-color: palevioletred;
+}
+.section4 {
+  background-color: mediumaquamarine;
+}
+
+.visible {
+  opacity: 1;
+}
